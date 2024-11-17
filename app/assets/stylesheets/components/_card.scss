@@ -1,0 +1,53 @@
+.my-list-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.my-list h1 {
+
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+// .cards-container {
+//   max-width: 900px;
+//   margin: 0 auto;
+//   display: flex;
+//   align-items: center;
+//   flex-direction: column;
+//   align-content: center;
+//   justify-content: space-between;
+//   margin-bottom: 100px;
+// }
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 60px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  block-size: fit-content;
+}
+
+.card-image {
+  width: 150px;
+  margin:auto;
+}
+
+.card a {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight:bold;
+  text-align: center;
+  color: rgb(34, 34, 34);
+  margin: 15px;
+  text-decoration: none;
+}

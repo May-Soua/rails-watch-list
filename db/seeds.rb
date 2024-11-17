@@ -19,5 +19,8 @@ Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal masterm
 
 puts "Creating lists..."
 List.create(name: "Horror")
+List.create(name: "Heroic Fantasy")
+List.create(name: "Animation")
+List.create(name: "Short films")
 
 puts "Finished! Created #{Movie.count} movies and #{List.count} lists."
